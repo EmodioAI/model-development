@@ -20,6 +20,9 @@ The notebook `Emotion_Data_Analysis.ipynb` is available to analyze the audio dat
 
 ## GANs for Audio Synthesis Notebook
 
-The notebook `GAN_Audio_Generation.ipynb` is currently a work in progress. It focuses on using Generative Adversarial Networks (GANs) for audio synthesis, aiming to incorporate emotions into monotone audios. This notebook explores various GAN architectures and techniques to generate expressive audio outputs.
+The notebook `GAN_Audio_Generation.ipynb` focuses on using Generative Adversarial Networks (GANs) for audio synthesis using DC-GANS, aiming to incorporate emotions into monotone audios. This notebook explores various DC-GAN architectures and techniques to generate expressive audio outputs.
 
 
+## Cycle GAN for training
+
+The notebook `Audio_GAN_Tests.ipynb` uses a cycle GAN model from a prepared repository for training emotional audio. The model focuses on training the spectrogram of each audio file. The fundamental frequency is calculated based onthe mean and std. values of an emotion dataset.
